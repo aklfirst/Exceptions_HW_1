@@ -1,5 +1,10 @@
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        userId klepov = new userId("klepov", "klepov1", "klepov1");
+
+        CheckUser.checkUser(klepov);
+
     }
 }
